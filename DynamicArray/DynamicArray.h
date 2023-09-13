@@ -18,7 +18,7 @@ public:
 
 	void ReSize(int);
 	void Sort();
-	int Search(int key);
+	int Search(int key) const;
 	void Reverse();
 
 	// реилизовать следующие методы:

@@ -71,7 +71,7 @@ void DynamicArray::Sort() {
 		}		
 	}
 }
-int DynamicArray::Search(int key) {
+int DynamicArray::Search(int key) const {
 	for (int i = 0; i < size; i++)
 		if (ptr[i] == key)
 			return i;
