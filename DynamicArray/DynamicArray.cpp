@@ -1,4 +1,4 @@
-#include "DynamicArray.h"
+﻿#include "DynamicArray.h"
 #include <Windows.h>
 
 DynamicArray::DynamicArray():ptr(nullptr),size(0) {}

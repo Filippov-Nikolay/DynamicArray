@@ -1,8 +1,8 @@
-#pragma once
+п»ї#pragma once
 #include "DynamicArray.h"
 
 
-//возврат по значению
+//РІРѕР·РІСЂР°С‚ РїРѕ Р·РЅР°С‡РµРЅРёСЋ
 DynamicArray GetObj()  {
 	DynamicArray obj(3);
 	obj.Input();
@@ -19,14 +19,14 @@ void main() {
 
 	DynamicArray rezult = GetObj();
 
-	// Ресайз
+	// Р РµСЃР°Р№Р·
 	cout << "Old size: " << a.GetSize() << endl;
 	a.ReSize(2);
 	cout << "New size: " << a.GetSize() << endl;
 	a.Output();
 
 	
-	// Сортировка
+	// РЎРѕСЂС‚РёСЂРѕРІРєР°
 	a.Input();
 	cout << "Before sort: " << endl;
 	a.Output();
@@ -37,7 +37,7 @@ void main() {
 	cout << endl;
 
 
-	// Поиск ключа
+	// РџРѕРёСЃРє РєР»СЋС‡Р°
 	cout << "Search\nInput key: ";
 	cin >> key;
 	key = a.Search(key);
@@ -49,7 +49,7 @@ void main() {
 	cout << endl;
 
 
-	// Ревёрс
+	// Р РµРІС‘СЂСЃ
 	cout << "Before reverse: " << endl;
 	a.Output();
 
